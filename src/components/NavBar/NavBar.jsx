@@ -21,6 +21,7 @@ export const NavBar = () => {
                         </li>
                         
                         <button className='contact-btn' onClick={()=>{}}>Hire Me</button>
+                        <button className='contact-btn' onClick={()=>{}}>Hire Me</button>
                     </ul>
                 </div>
             </nav>
