@@ -15,8 +15,11 @@ export const NavBar = () => {
             <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
             
 			<nav className="nav-wrapper">
-				<div className="nav-content">
-					<img className="logo" src="" alt="logo" />
+				<div className="nav-content"> 
+					<a href="/" style={{ textDecoration: 'none', color: 'whitesmoke' }}>Luciano Comignaghi <br />
+				Full Stack Dev.</a>
+				
+					{/* <img className="logo" src="" alt="logo" /> */}
 					<ul>
 						<li>
 							<a href="" className="menu-item">
