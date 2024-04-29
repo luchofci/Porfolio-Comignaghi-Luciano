@@ -1,7 +1,7 @@
 import "./SkillCard.css" 
+import PropTypes from 'prop-types'; 
 
-
-export const SkillCard = ({ title, iconUrl, isActive, onClick}) => {
+export const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
     return (
         <>
             <div className={`skills-card ${isActive ? 'active' : ''}`} onClick={()=> onClick()}>
@@ -9,10 +9,16 @@ export const SkillCard = ({ title, iconUrl, isActive, onClick}) => {
                     <img srcSet={iconUrl} alt={title} />
                 </div>
                 <span>{title}</span>
-            </div>
-        
+            </div>  
         
         </>
         
     )
 }
+
+SkillCard.propTypes = { 
+    title: PropTypes.string.isRequired,
+    iconUrl: PropTypes.string.isRequired,
+    isActive: PropTypes.bool.isRequired,
+    onClick: PropTypes.func.isRequired
+};
