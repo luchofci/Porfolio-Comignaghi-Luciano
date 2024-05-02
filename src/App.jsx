@@ -27,6 +27,7 @@ function App() {
       <Contact/>
       <Footer/>
       <Footer/>
+      <Footer/>
 
     </>
   )
