@@ -53,6 +53,7 @@
     gap: 2rem;
     margin-top: 5rem;
 }
+/* mask-image: linear-gradient(black 80%, transparent); Esta linea es para hacer transpoarente abajo */
 
 .user-img > div {
     display: flex;
