@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'; // Importa PropTypes
 const SkillsInfoCard = ({ heading, skills }) => {
 	return (
 		<div className="skills-info-card">
-			<h6>{heading}</h6>
+			<h1>{heading}</h1>
 
 			<div className="skills-info-content">
 				{skills.map((item, index) => (

@@ -1,6 +1,9 @@
 .skills-container{
-    margin: 4rem 0;
+    /* margin: 4rem 0; */
     position: relative;
+    max-width: 1300px !important;
+	margin: 0 auto;
+	
 }
 .skills-container::after,
 .skills-container::before{
@@ -24,15 +27,13 @@
 }
 
 
-
-
-
-.skills-container h5{
-    margin-left: 1rem;
+.section-title{
+    text-align: center;
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 3.5rem;
-}
+} 
+
 .skills-content{
     display: flex;
     align-items: flex-start;
@@ -46,6 +47,15 @@
     grid-gap: 3rem;
     grid-template-columns: repeat(2, 1fr);
 }
+/* .skills{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}  POR KENNY*/
+/* .skills-div{
+    display: flex;
+    align-items: center;
+} POR KENNY*/
 .skills-info{
     flex: 1;
 }
@@ -68,9 +78,11 @@
     .skills,
     .skills-info{
         width: 100%;
+        padding-left: 1rem;
+        padding-right: 2rem;
     }
-    .skills-container h5{
-        font-size: 1.3rem;
+    .section-title{
+        font-size: 2rem;
         margin-bottom: 2rem;
     }
     .skills-container::after,

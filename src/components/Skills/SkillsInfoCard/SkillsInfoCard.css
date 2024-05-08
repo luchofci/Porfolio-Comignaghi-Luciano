@@ -8,7 +8,7 @@
     background: rgba(22, 17, 47, 0.398);
     backdrop-filter: blur(1rem);
 }
-.skills-info-card h6{
+.skills-info-card h1{
     font-size: 1.2rem;
     font-weight: 500;
     padding: 0.8rem 2rem;
@@ -50,7 +50,7 @@
 }
 
 @media (max-width: 1025px){
-    .skills-info-card h6{
+    .skills-info-card h1{
         font-size: 1.1rem;
     }
     .skill-info p {
