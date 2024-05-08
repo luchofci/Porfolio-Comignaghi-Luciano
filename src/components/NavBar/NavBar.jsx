@@ -22,22 +22,22 @@ export const NavBar = () => {
 					{/* <img className="logo" src="" alt="logo" /> */}
 					<ul>
 						<li>
-							<a href="" className="menu-item">
+							<a href="#home" className="menu-item">
 								Home
 							</a>
 						</li>
 						<li>
-							<a href="" className="menu-item">
+							<a href="#skills" className="menu-item">
 								Skills
 							</a>
 						</li>
 						<li>
-							<a href="" className="menu-item">
+							<a href="#projects" className="menu-item">
 								Projects
 							</a>
 						</li>
 						<li>
-							<a href="" className="menu-item">
+							<a href="#contactMe" className="menu-item">
 								Contact Me
 							</a>
 						</li>

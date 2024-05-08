@@ -4,10 +4,9 @@ import './Project.css';
 const Project = () => {
 	return (
 		<>
-			<div className="porfolio">
+			<div id='projects' className="porfolio">
+				<h1 className="section-title">My work</h1>
 				<div className="container">
-					<h1 className="sub-title">My work</h1>
-
 					<div className="work-list">
 						<div className="work">
 							<img
