@@ -7,7 +7,9 @@
     grid-gap: 40px;
     margin-top: 50px;
 }
-
+.sub-title{
+    font-size: 2rem;
+}
 .work{
     border-radius: 10px;
     position:relative;
@@ -74,8 +76,10 @@
     border-radius: 6px;
     text-decoration: none;
     color:#fff;
+    background: #ff004f;
     transition:background 0.5s ease;
+    transition: transform 0.3s;
 }
 .btn:hover{
-    background: #ff004f
+    transform: translateY(-3px)
 }
