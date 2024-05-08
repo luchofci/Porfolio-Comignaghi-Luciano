@@ -1,14 +1,14 @@
 import './globalStyles.css'
+import './globalStyles.css'
 
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
 import { NavBar } from './components/NavBar/NavBar'
+import Contact from './components/Contact/Contact'
 import Project from './components/Projects/Project'
 import Skills from './components/Skills/Skills'
 import User from './components/User/User'
+import CopyRigth from './components/Footer/CopyRigth/CopyRigth'
 
 
-import './globalStyles.css'
 
 function App() {
 
@@ -25,10 +25,8 @@ function App() {
       <Skills/>
       <Project/>
       <Contact/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
+
+      <CopyRigth/>
 
     </>
   )
