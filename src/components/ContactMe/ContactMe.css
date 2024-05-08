@@ -71,6 +71,8 @@ background-color: #ff004f;
 margin-right: 1rem;    
 }
 
+
+
 /* Media queries para pantallas más grandes */
 @media (min-width: 768px) {
     .contact-left, .contact-right {

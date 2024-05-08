@@ -1,48 +1,49 @@
-import FotoFrontEnd from './../assets/images/Foto.png'
-import FotoBackend from './../assets/images/Foto.png'
-import FotoTools from './../assets/images/Foto.png'
-import FotoSoftSkills from './../assets/images/Luciano.jpeg'
+import FotoFrontEnd from './../../public/images/front/arte-digital.png'
+import FotoBackend from './../../public/images/back/back-end (2).png'
+import FotoTools from './../../public/images/tools/herramientas.png'
+import FotoSoftSkills from './../../public/images/soft/habilidades-blandas.png'
 
 
 export const SKILLS = [
     {
-        title:'Frontend',
+        title:'FrontEnd',
         icon: FotoFrontEnd,
         skills:[
             {skills:'HTML', percentage: "90%"},
             {skills:'CSS', percentage: "90%"},
             {skills:'JavaScript', percentage: "75%"},
-            {skills:'React.js', percentage: "80%"},
+            {skills:'React.js', percentage: "90%"},
+            {skills:'Boostrap', percentage: "80%"},
         ]
     },
     {
-        title:'Backend',
+        title:'BackEnd',
         icon: FotoBackend,
         skills:[
-            {skills:'Yolo', percentage: "20%"},
-            {skills:'Yolo2', percentage: "90%"},
-            {skills:'Yolo', percentage: "75%"},
-            {skills:'React.js', percentage: "80%"},
+            {skills:'Node.js', percentage: "70%"},
+            {skills:'Express.js', percentage: "70%"},
+            {skills:'MongooDB', percentage: "80%"},
         ]
     },
     {
         title:'Tools',
         icon: FotoTools,
         skills:[
-            {skills:'HTML', percentage: "75%"},
-            {skills:'CSS', percentage: "90%"},
-            {skills:'Yolo555', percentage: "75%"},
-            {skills:'React.js', percentage: "80%"},
+            {skills:'Visual Studio Code', percentage: "90%"},
+            {skills:'Git & GitHub', percentage: "85%"},
+            {skills:'Responsive Design', percentage: "75%"},
+            {skills:'Figma & FigJam', percentage: "95%"},
         ]
     },
     {
-        title:'Soft Skills',
+        title:'SoftSkills',
         icon: FotoSoftSkills,
         skills:[
-            {skills:'HTML', percentage: "90%"},
-            {skills:'CSS', percentage: "90%"},
-            {skills:'Yolo1234123', percentage: "75%"},
-            {skills:'React.js', percentage: "80%"},
+            {skills:'Team Player', percentage: "90%"},
+            {skills:'Work Under Pressure', percentage: "100%"},
+            {skills:' Problem Solving & Decision-Making', percentage: "85%"},
+            {skills:'Effective Communication', percentage: "95%"},
+            {skills:'Leadership & Mentorship', percentage: "80%"},
         ]
     },
 ]
