@@ -1,7 +1,7 @@
 import FotoFrontEnd from './../assets/images/Foto.png'
 import FotoBackend from './../assets/images/Foto.png'
 import FotoTools from './../assets/images/Foto.png'
-import FotoSoftSkills from './../assets/images/Foto.png'
+import FotoSoftSkills from './../assets/images/Luciano.jpeg'
 
 
 export const SKILLS = [
@@ -44,5 +44,16 @@ export const SKILLS = [
             {skills:'Yolo1234123', percentage: "75%"},
             {skills:'React.js', percentage: "80%"},
         ]
+    },
+]
+
+
+export const WORK_EXPERIENCE = [
+    {
+        title: '',
+        date:"",
+        responsabilities:[
+            ""
+        ],
     },
 ]
