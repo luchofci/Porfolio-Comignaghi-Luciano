@@ -1,12 +1,11 @@
 import './globalStyles.css'
-import './globalStyles.css'
 
 import { NavBar } from './components/NavBar/NavBar'
-import Contact from './components/Contact/Contact'
 import Project from './components/Projects/Project'
 import Skills from './components/Skills/Skills'
 import User from './components/User/User'
 import CopyRigth from './components/Footer/CopyRigth/CopyRigth'
+import ContactMe from './components/ContactMe/ContactMe'
 
 
 
@@ -24,7 +23,7 @@ function App() {
       </p>
       <Skills/>
       <Project/>
-      <Contact/>
+      <ContactMe/>
 
       <CopyRigth/>
 
