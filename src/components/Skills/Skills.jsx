@@ -1,3 +1,6 @@
+
+
+
 import { useState } from 'react'
 import { SKILLS } from '../../utils/data'
 import { SkillCard } from './SkillCard/SkillCard'

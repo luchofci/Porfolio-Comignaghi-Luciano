@@ -68,13 +68,43 @@ form .btn2{
 .btn.btn2{
 display: inline-block;
 background-color: #ff004f;
-margin-right: 1rem;
-    
+margin-right: 1rem;    
 }
 
 /* Media queries para pantallas más grandes */
 @media (min-width: 768px) {
     .contact-left, .contact-right {
         flex-basis: 48%; 
+    }
+    
+}
+@media (max-width: 600px) {
+    .contact-left, .contact-right {
+        flex-basis: 100%; 
+    }
+
+    .contact-left .btn.btn2 {
+        margin-top: 20px;
+        margin-right: 10px; 
+        width: calc(50% - 10px);
+    }
+
+    .contact-left .btn.btn2:last-child {
+        margin-right: 0; 
+    }
+}
+
+@media (max-width: 991px){
+    .contact-left, .contact-right {
+        flex-basis: 100%; 
+    }
+
+    .contact-left .btn.btn2 {
+        margin-top: 20px;
+        margin-right: 10px; 
+    }
+
+    .contact-left .btn.btn2:last-child {
+        margin-right: 0; 
     }
 }
