@@ -1,21 +1,28 @@
 .porfolio{
     padding: 50px 0;
 }
-.work-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
 .sub-title{
     margin-left: 1rem;
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 3.5rem;}
+
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 50px;
+}
+
 .work{
     border-radius: 10px;
     position:relative;
     overflow: hidden;
+
+    width: calc(25% - 20px); 
+    max-width: 250px; 
+    
 }
 
 .work img{
@@ -23,6 +30,10 @@
     border-radius:10px;
     display: block;
     transition:transform 0.5s;
+    height: auto;
+
+    
+
 }
 
 .layer{
@@ -38,14 +49,17 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 20px;
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
 }
 
 .layer h3{    
-    margin-bottom:20px;
+    margin-bottom:10px;
+}
+.layer p {
+    margin-bottom: 10px; 
 }
 
 .layer a{
@@ -53,10 +67,10 @@
     color: #ff004f;
     text-decoration: none;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 30px;
     background: #fff;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     text-align: center;
 }
@@ -67,6 +81,7 @@
 
 .work:hover .layer{
     height:100%;
+    
 }
 
 .btn{
@@ -84,4 +99,22 @@
 }
 .btn:hover{
     transform: translateY(-3px)
+}
+
+@media (max-width: 1200px) {
+    .work {
+        width: calc(33.33% - 20px); 
+    }
+}
+
+@media (max-width: 900px) {
+    .work {
+        width: calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 600px) {
+    .work {
+        width: calc(100% - 20px); 
+    }
 }

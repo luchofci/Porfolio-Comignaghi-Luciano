@@ -4,24 +4,53 @@ import './Project.css';
 const Project = () => {
 	return (
 		<>
-			<div id='projects' className="porfolio">
+			<div id="projects" className="porfolio">
 				<h1 className="section-title">My work</h1>
 				<div className="container">
 					<div className="work-list">
 						<div className="work">
 							<img
-								src={'../../../public/images/Foto.png'}
+								src={'../../../public/images/Logo-Nav.png'}
 								alt="Foto1"
 							/>
 							<div className="layer">
-								<h3>Social Media App</h3>
+								<h3>
+									PetShop Tabu&Odin <br /> App
+								</h3>
 								<p>
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Neque magnam officiis quos
-									deserunt, ratione autem iusto eos adipisci
-									sunt inventore, quis explicabo
-									exercitationem temporibus, reiciendis error!
-									Eos quis quas magni.
+									Immerse yourself in an 
+									Fully-functional Ecommerce experience with
+									our comprehensive platform. Enjoy seamless
+									CRUD operations for effortless product
+									management, secure login functionality for
+									peace of mind, and a dynamic shopping cart
+									system to streamline your purchasing
+									journey.
+								</p>
+								<a href="#">
+									<i className="fa-solid fa-arrow-up-right-from-square"></i>{' '}
+								</a>
+							</div>
+						</div>
+						
+						<div className="work">
+							<img
+								src={'../../../public/images/Luciano.jpeg'}
+								alt="Foto1"
+							/>
+							<div className="layer">
+								<h3>
+									PetShop Tabu&Odin <br /> App
+								</h3>
+								<p>
+									Immerse yourself in an 
+									Fully-functional Ecommerce experience with
+									our comprehensive platform. Enjoy seamless
+									CRUD operations for effortless product
+									management, secure login functionality for
+									peace of mind, and a dynamic shopping cart
+									system to streamline your purchasing
+									journey.
 								</p>
 								<a href="#">
 									<i className="fa-solid fa-arrow-up-right-from-square"></i>{' '}
@@ -29,47 +58,12 @@ const Project = () => {
 							</div>
 						</div>
 
-						<div className="work">
-							<img
-								src={'../../../public/images/Foto.png'}
-								alt="Foto2"
-							/>
-							<div className="layer">
-								<h3>Social Media App</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Neque magnam officiis quos
-									deserunt, ratione autem iusto eos adipisci
-									sunt inventore, quis explicabo
-									exercitationem temporibus, reiciendis error!
-									Eos quis quas magni.
-								</p>
-								<a href="#">
-									<i className="fa-solid fa-arrow-up-right-from-square"></i>{' '}
-								</a>
-							</div>
-						</div>
+						
 
-						<div className="work">
-							<img
-								src={'../../../public/images/Foto.png'}
-								alt="Foto3"
-							/>
-							<div className="layer">
-								<h3>social Media App</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Neque magnam officiis quos
-									deserunt, ratione autem iusto eos adipisci
-									sunt inventore, quis explicabo
-									exercitationem temporibus, reiciendis error!
-									Eos quis quas magni.
-								</p>
-								<a href="#">
-									<i className="fa-solid fa-arrow-up-right-from-square"></i>
-								</a>
-							</div>
-						</div>
+						
+						
+
+						
 					</div>
 					<a href="" className="btn">
 						See more
