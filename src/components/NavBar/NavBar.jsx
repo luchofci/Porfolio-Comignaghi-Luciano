@@ -19,7 +19,7 @@ export const NavBar = () => {
 					<a href="/" style={{ textDecoration: 'none', color: 'whitesmoke' }}>Luciano Comignaghi <br />
 				Full Stack Dev.</a>
 				
-					{/* <img className="logo" src="" alt="logo" /> */}
+					{/* <img className="logo" src={'../../../public/images/back/back-end (2).png'} alt="logo" style={ {'color': "white"}}/>/ */}
 					<ul>
 						<li>
 							<a href="#home" className="menu-item">
@@ -52,7 +52,7 @@ export const NavBar = () => {
 							className={'material-symbols-outlined'}
 							style={{ fontSize: '1.8rem' }}
 						>
-							{openMenu ? 'close' : 'menu'}
+							{openMenu ? 'X' : 'Menu'}
 						</span>
 					</button>
 				</div>
@@ -61,5 +61,3 @@ export const NavBar = () => {
 	);
 };
 
-// export default NavBar
-// export default NavBar
