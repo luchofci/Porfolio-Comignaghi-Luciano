@@ -11,7 +11,7 @@ const User = () => {
 			</div>
 			<div className="user-img">
 				<div>
-					<img srcSet="/src/assets/images/Foto.png" alt="userImage" />
+					<img srcSet="/src/assets/images/Luciano.jpeg" alt="userImage" />
 				</div>
 			</div>
 		</section>
