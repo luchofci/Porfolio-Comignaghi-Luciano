@@ -6,13 +6,14 @@
 	margin: 0 auto;
 }
 
-.user-container::after,
+/* .user-container::after,
 .user-container::before {
 	content: '';
 	width: 28.125rem;
 	height: 28.125rem;
 	border-radius: 28.125rem;
 	background-color: #7c66e3;
+	background-color: #ff004f;
 	position: absolute;
 	z-index: -1;
 	filter: blur(225px);
@@ -26,7 +27,7 @@
 .user-container::before {
 	bottom: 2rem;
 	right: 0rem;
-}
+} */
 
 .user-content {
 	flex: 1;
@@ -47,14 +48,15 @@
 }
 
 .user-img {
-	flex: 1;
+		flex: 1;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 2rem;
 	margin-top: 5rem;
+	mask-image: linear-gradient(black 60%, transparent); 
+	/*Esta linea es para hacer transpoarente abajo  de la foto.*/
 }
-/* mask-image: linear-gradient(black 80%, transparent); Esta linea es para hacer transpoarente abajo */
 
 .user-img > div {
 	display: flex;

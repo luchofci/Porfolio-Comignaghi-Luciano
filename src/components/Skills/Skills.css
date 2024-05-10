@@ -5,13 +5,14 @@
 	margin: 2rem auto;
 	
 }
-.skills-container::after,
+/* .skills-container::after,
 .skills-container::before{
     content: '';
     width: 28rem;
     height: 28rem;
     border-radius: 28.125rem;
     background: #7c66e3;
+    background: #ff004f;
     position: absolute;
     z-index: -1;
     filter: blur(200px);
@@ -24,7 +25,7 @@
     background: #9e51b9;
     bottom: 0rem;
     right: 0rem;
-}
+} */
 
 
 .section-title{
