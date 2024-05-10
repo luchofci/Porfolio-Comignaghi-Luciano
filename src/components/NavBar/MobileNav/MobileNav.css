@@ -1,5 +1,4 @@
 .mobile-menu{
-    /* width: 100%; */
     width: auto;
     height: 100vh;
     display: none;
@@ -10,18 +9,31 @@
     top: 0;
     z-index: 999 !important;
     opacity: 0;
-    box-shadow: 0px 29px 80px  rgba(0, 0, 0, 3);
+    box-shadow: 0px 29px 80px  #262626;
     transition: all 0.3s ease;
     transform: translateX(-100vw);
-
 }
-
+.menu-item.menu-navbar{
+    font-size: 20px;
+}
 .mobile-menu-container{
+    font-size: 1rem;
     width: 60vw;
     height: 100vh;
-    background-color: #342864;
+    background-color: #262626;
     padding: 2rem;
 }
+.mobile-nav-title{
+    padding-bottom: 5rem;
+}
+
+.mobile-nav-title-p:hover{
+    background: linear-gradient(90deg, whitesmoke 0%, #ff004f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+} 
 
 .mobile-menu.active{
     opacity: 1;
@@ -40,26 +52,31 @@
     /* margin-left: -2rem; */
 }
 .contact-btn-mobile{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    background: linear-gradient(90deg, blue 0%, green 100%);
+    background: linear-gradient(90deg,#252734 0%, #ff004f 100%);
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
-    border-radius: 0.2rem;
+    border-radius: 0.2rem ;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
     
 }
 .contact-btn-mobile:hover{
-    color: red;
-    background: #000;
-    outline: 1.5px solid red;
+    color: #ff004f;
+    background: #252734;
+    outline: 1.5px solid #ff004f;
 
+}
+.btn-mobile-nav{
+    border: none;
+    /* padding: 1px; */
 }
 
 @media (max-width: 769px){

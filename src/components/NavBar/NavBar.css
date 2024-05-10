@@ -1,5 +1,5 @@
 .nav-wrapper{
-    background: rgba(0 , 0, 0, 1);
+    background:  #262626;
     padding: 0.5rem 0;
     position: sticky;
     top: 0;
@@ -45,7 +45,7 @@
     content: "";
     width: 2rem;
     height: 0.2rem;
-    background: linear-gradient(90deg, blue 0%, green 100%);
+    background: linear-gradient(90deg,#252734 0%, #ff004f 100%);
     border-radius: 0.5rem;
     position: absolute;
     bottom: -0.6rem;
@@ -68,7 +68,7 @@
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    background: linear-gradient(90deg, blue 0%, green 100%);
+    background: linear-gradient(90deg,#252734 0%, #ff004f 100%);
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
@@ -78,9 +78,9 @@
 }
 
 .contact-btn:hover{
-    color: red;
-    background: #000;
-    outline: 1.5px solid red;
+    color: #ff004f;
+    background: #252734;
+    outline: 1.5px solid #ff004f;
 }
 
 .menu-btn{
@@ -93,7 +93,7 @@
     border: none;
     border-radius: 0.4rem;
     color: whitesmoke;
-    background: linear-gradient(90deg, blue -0.13%, green 99.87%);
+    background: linear-gradient(90deg, #252734 0%, #ff004f 100%);
     line-height: 0;
     cursor: pointer;
     transition: all 0.4s ease;
@@ -101,9 +101,9 @@
 }
 
 .menu-btn:hover{
-    color: blue;
-    background: black;
-    border: 1px solid blue;
+    color: #ff004f;
+    background: #252734;
+    outline: 1.5px solid #ff004f;
 }
 
 
