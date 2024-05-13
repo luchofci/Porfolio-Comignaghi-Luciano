@@ -24,7 +24,7 @@ const Project = () => {
 									dynamic shopping cart system to streamline
 									your purchasing journey.
 								</p>
-								<a href="#">
+								<a href="https://github.com/luchofci" target='blank'>
 									<i className="fa-solid fa-arrow-up-right-from-square"></i>{' '}
 								</a>
 							</div>
