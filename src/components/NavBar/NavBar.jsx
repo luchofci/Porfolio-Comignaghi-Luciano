@@ -3,7 +3,8 @@ import './NavBar.css';
 import MobileNav from './MobileNav/MobileNav';
 
 // const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
-const Resume = import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
+const Resume =
+	import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf';
 
 export const NavBar = () => {
 	const [openMenu, setOpenMenu] = useState(false);
@@ -64,7 +65,7 @@ export const NavBar = () => {
 						</li>
 						<a
 							href={Resume}
-							download={Resume}
+							download="Luciano Comignaghi Resume"
 							className="contact-btn-mobile"
 						>
 							Download Resume Xx
