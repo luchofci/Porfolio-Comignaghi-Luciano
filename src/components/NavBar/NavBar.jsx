@@ -65,7 +65,7 @@ export const NavBar = () => {
 						</li>
 						<a
 							href={Resume}
-							download="Luciano Comignaghi Resume.pdf"
+							download="DonPepito.pdf"
 							className="contact-btn-mobile"
 						>
 							Download Resume Xx
