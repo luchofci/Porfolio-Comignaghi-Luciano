@@ -73,14 +73,14 @@ const ContactMe = () => {
 								</a>
 							</div>
 							<a
-								href={Resume}
+								href={Cv}
 								download="LucianoComignaghiCv.pdf"
 								className="btn btn2"
 							>
 								Download CV (ES)
 							</a>
 							<a
-								href={Cv}
+								href={Resume}
 								download="LucianoComignaghiResume.pdf"
 								className="btn btn2"
 							>

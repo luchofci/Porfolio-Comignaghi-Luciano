@@ -30,7 +30,7 @@ const Project = () => {
 							</div>
 						</div>
 
-						<div className="work">
+						{/* <div className="work">
 							<img
 								src={'../../../public/images/Foto.png'}
 								alt="Foto1"
@@ -55,7 +55,7 @@ const Project = () => {
 									<i className="fa-solid fa-arrow-up-right-from-square"></i>{' '}
 								</a>
 							</div>
-						</div>
+						</div> */}
 						
 					</div>
 					<a href="" className="btn">
