@@ -70,7 +70,7 @@ export const NavBar = () => {
 							download={Resume}
 							className="contact-btn-mobile"
 						>
-							Download Resume
+							Download Resume X
 						</a>
 					</ul>
 					<button className="menu-btn" onClick={toggleMenu}>
