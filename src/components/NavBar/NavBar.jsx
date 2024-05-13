@@ -2,14 +2,10 @@ import { useState } from 'react';
 import './NavBar.css';
 import MobileNav from './MobileNav/MobileNav';
 
-const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
+// const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
+const Resume = import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
 
 export const NavBar = () => {
-	const Resume2 = import.meta.env.REACT_APP_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
-	const Resume3 = import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
-	console.log('Resume2', Resume2)
-	console.log('Resume3', Resume3)
-
 	const [openMenu, setOpenMenu] = useState(false);
 
 	const toggleMenu = () => {
