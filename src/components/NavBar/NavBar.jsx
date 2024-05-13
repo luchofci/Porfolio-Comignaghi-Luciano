@@ -17,21 +17,27 @@ export const NavBar = () => {
 
 			<nav className="nav-wrapper">
 				<div className="nav-content">
-					<a
+					<div
+						className="logo-wrapper"
 						href="/"
-						style={{ textDecoration: 'none', color: 'whitesmoke' }}
+						style={{
+							textDecoration: 'none',
+							color: 'whitesmoke',
+						}}
 					>
 						<i
 							style={{ color: '#ff004f' }}
 							className="fa-solid fa-code"
 						></i>{' '}
-						Luciano Comignaghi <br />
-						Full Stack Dev.{' '}
+						<h1>
+							Luciano Comignaghi <br />
+							Full Stack Dev.{' '}
+						</h1>
 						<i
 							style={{ color: '#ff004f' }}
 							className="fa-solid fa-code"
 						></i>
-					</a>
+					</div>
 
 					{/* <img className="logo" src={'../../../public/images/back/back-end (2).png'} alt="logo" style={ {'color': "white"}}/>/ */}
 					<ul>
@@ -60,7 +66,7 @@ export const NavBar = () => {
 							download={Resume}
 							className="contact-btn-mobile"
 						>
-							Download Resumeeee
+							Download Resume
 						</a>
 					</ul>
 					<button className="menu-btn" onClick={toggleMenu}>
