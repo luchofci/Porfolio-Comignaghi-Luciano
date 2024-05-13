@@ -21,8 +21,16 @@ export const NavBar = () => {
 						href="/"
 						style={{ textDecoration: 'none', color: 'whitesmoke' }}
 					>
-						<i style={{ color: '#ff004f'}} className="fa-solid fa-code"></i> Luciano Comignaghi <br />
-						Full Stack Dev. <i style={{ color: '#ff004f'}} className="fa-solid fa-code"></i>
+						<i
+							style={{ color: '#ff004f' }}
+							className="fa-solid fa-code"
+						></i>{' '}
+						Luciano Comignaghi <br />
+						Full Stack Dev.{' '}
+						<i
+							style={{ color: '#ff004f' }}
+							className="fa-solid fa-code"
+						></i>
 					</a>
 
 					{/* <img className="logo" src={'../../../public/images/back/back-end (2).png'} alt="logo" style={ {'color': "white"}}/>/ */}
@@ -48,11 +56,11 @@ export const NavBar = () => {
 							</a>
 						</li>
 						<a
-							href="../../../public/images/Luciano Comignaghi Resume.pdf"
+							href={Resume}
 							download={Resume}
 							className="contact-btn-mobile"
 						>
-							Download Resume
+							Download Resumeeee
 						</a>
 					</ul>
 					<button className="menu-btn" onClick={toggleMenu}>
@@ -60,7 +68,11 @@ export const NavBar = () => {
 							className={'material-symbols-outlined'}
 							style={{ fontSize: '1.8rem' }}
 						>
-							{openMenu ? 'X' : <i className="fa-solid fa-bars"></i>}
+							{openMenu ? (
+								'X'
+							) : (
+								<i className="fa-solid fa-bars"></i>
+							)}
 						</span>
 					</button>
 				</div>
@@ -68,4 +80,3 @@ export const NavBar = () => {
 		</>
 	);
 };
-

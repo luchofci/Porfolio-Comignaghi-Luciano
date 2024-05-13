@@ -16,7 +16,6 @@ function App() {
 			<Project />
 			<ContactMe />
 			<CopyRigth />
-			<CopyRigth />
 		</>
 	);
 }

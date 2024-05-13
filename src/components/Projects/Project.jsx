@@ -34,7 +34,7 @@ const Project = () => {
 
 						<div className="work">
 							<img
-								src={'../../../public/images/Luciano.jpeg'}
+								src={'../../../public/images/Foto.png'}
 								alt="Foto1"
 							/>
 							<div className="layer">
