@@ -2,15 +2,13 @@ import { useState } from 'react';
 import './NavBar.css';
 import MobileNav from './MobileNav/MobileNav';
 
-// const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
+const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
 
 export const NavBar = () => {
-
-	const Resume = import.meta.env.REACT_APP_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
-
+	// const Resume = import.meta.env.REACT_APP_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
 
 	const [openMenu, setOpenMenu] = useState(false);
-	
+
 	const toggleMenu = () => {
 		setOpenMenu(!openMenu);
 	};
