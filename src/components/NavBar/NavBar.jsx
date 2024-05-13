@@ -65,10 +65,10 @@ export const NavBar = () => {
 						</li>
 						<a
 							href={Resume}
-							download="DonPepito.pdf"
+							download="LucianoComignaghiResume.pdf"
 							className="contact-btn-mobile"
 						>
-							Download Resume Xx
+							Download Resume!!!
 						</a>
 					</ul>
 					<button className="menu-btn" onClick={toggleMenu}>

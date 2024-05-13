@@ -1,5 +1,5 @@
 import './Project.css';
-// import FotoTools from './../assets/images/Foto.png'
+const TabuOdin = import.meta.env.VITE_PUBLIC_URL + '/images/Logo-Nav.png';
 
 const Project = () => {
 	return (
@@ -8,11 +8,9 @@ const Project = () => {
 				<h1 className="section-title">My work</h1>
 				<div className="container">
 					<div className="work-list">
+
 						<div className="work">
-							<img
-								src={'../../../public/images/Logo-Nav.png'}
-								alt="Foto1"
-							/>
+							<img src={TabuOdin} alt="Tabu&Odin" />
 							<div className="layer">
 								<h3>
 									PetShop Tabu&Odin <br /> App
@@ -58,6 +56,7 @@ const Project = () => {
 								</a>
 							</div>
 						</div>
+						
 					</div>
 					<a href="" className="btn">
 						See more

@@ -1,5 +1,8 @@
 import './User.css';
 
+const UserImage =
+	import.meta.env.VITE_PUBLIC_URL + '/images/Luciano.jpeg';
+
 const User = () => {
 	return (
 		<section id="home" className="user-container">
@@ -11,7 +14,8 @@ const User = () => {
 			</div>
 			<div className="user-img">
 				<div>
-					<img srcSet="/src/assets/images/Luciano.jpeg" alt="userImage" />
+					<img srcSet={UserImage}
+					alt="userImage" />
 				</div>
 			</div>
 		</section>

@@ -1,6 +1,7 @@
 import './MobileNav.css';
 
-const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
+const Resume =
+	import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf';
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
 	return (
@@ -11,7 +12,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
 			>
 				<div className="mobile-menu-container">
 					<div className="mobile-nav-title">
-						<h1 >
+						<h1>
 							<p className="mobile-nav-title-p">
 								Luciano Comignaghi Full Stack Dev.
 							</p>
@@ -50,8 +51,8 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
 							</a>
 						</li>
 						<a
-							href="../../../public/images/Luciano Comignaghi Resume.pdf"
-							download={Resume}
+							href={Resume}
+							download="LucianoComignaghiResume.pdf"
 							className="contact-btn-mobile"
 						>
 							Download Resume

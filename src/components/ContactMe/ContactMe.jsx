@@ -1,9 +1,9 @@
 import Swal from 'sweetalert2';
 
 import './ContactMe.css';
-
-const Cv = '../../../public/images/Luciano Comignaghi CV.pdf';
-const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
+const Resume =
+	import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf';
+const Cv = import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi CV.pdf'
 
 const ContactMe = () => {
 	const onSubmit = async (event) => {
@@ -73,15 +73,15 @@ const ContactMe = () => {
 								</a>
 							</div>
 							<a
-								href="../../../public/images/Luciano Comignaghi CV.pdf"
-								download={Cv}
+								href={Resume}
+								download="LucianoComignaghiCv.pdf"
 								className="btn btn2"
 							>
 								Download CV (ES)
 							</a>
 							<a
-								href="../../../public/images/Luciano Comignaghi Resume.pdf"
-								download={Resume}
+								href={Cv}
+								download="LucianoComignaghiResume.pdf"
 								className="btn btn2"
 							>
 								Download Resume (EN)
