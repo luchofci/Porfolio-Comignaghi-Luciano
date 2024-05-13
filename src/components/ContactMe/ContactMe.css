@@ -73,7 +73,23 @@ margin-right: 1rem;
 
 
 
-/* Media queries para pantallas más grandes */
+@media (max-width: 465px) {
+    .contact-left .btn.btn2 {
+        width: 100%; /* Asegúrate de que el botón ocupe todo el ancho disponible */
+        height: 50px; /* Establece una altura fija para ambos botones */
+        margin-top: 10px;
+    /* .contact-left .btn.btn2 {
+        width: calc(50% - 10px); 
+        margin-right: 10px; 
+        color: black;
+    }
+
+    .contact-left .btn.btn2:last-child {
+        margin-right: 0;
+} */
+}
+
+
 @media (min-width: 768px) {
     .contact-left, .contact-right {
         flex-basis: 48%; 

@@ -118,7 +118,7 @@
 		width: auto;
 		text-align: center;
 	}
-	.user-container::after,
+	/* .user-container::after,
 	.user-container::before {
 		content: '';
 		width: 18rem;
@@ -131,7 +131,7 @@
 	.user-container::before {
 		bottom: 2rem;
 		right: 0rem;
-	}
+	} */
 }
 
 @media (max-width: 600px) {

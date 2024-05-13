@@ -77,7 +77,8 @@ const ContactMe = () => {
 								download="LucianoComignaghiCv.pdf"
 								className="btn btn2"
 							>
-								Download CV (ES)
+								Download CV 
+								(ES)
 							</a>
 							<a
 								href={Resume}
