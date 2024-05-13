@@ -5,7 +5,10 @@ import MobileNav from './MobileNav/MobileNav';
 const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
 
 export const NavBar = () => {
-	// const Resume = import.meta.env.REACT_APP_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
+	const Resume2 = import.meta.env.REACT_APP_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
+	const Resume3 = import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf'
+	console.log('Resume2', Resume2)
+	console.log('Resume3', Resume3)
 
 	const [openMenu, setOpenMenu] = useState(false);
 
@@ -68,7 +71,7 @@ export const NavBar = () => {
 							download={Resume}
 							className="contact-btn-mobile"
 						>
-							Download Resume X
+							Download Resume Xx
 						</a>
 					</ul>
 					<button className="menu-btn" onClick={toggleMenu}>
